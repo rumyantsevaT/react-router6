@@ -6,13 +6,13 @@
 
 section {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
 }
 
 .container {
   width: 100%;
-  min-width: 980px;
+  width: 980px;
   margin: auto;
 }
 
@@ -37,12 +37,14 @@ section {
 
 .card h1 {
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
-.card a {
+.card a.link , 
+.full a.link {
   text-decoration: none;
   display: inline-block;
-  background: #40538b;
+  background: #252b3d;
   color: #fff;
   padding: 10px;
   margin: 14px 0 0 0;
